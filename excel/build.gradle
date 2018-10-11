@@ -1,0 +1,6 @@
+apply plugin: 'com.android.library'
+apply from: 'https://gist.githubusercontent.com/xieyangxuejun/d040ca2ec4cd9897b25000c0dfe7c49d/raw/4108d415db47fcf1de83ce26ea0b6ab8a2e7256e/bintray17.gradle'
+
+dependencies {
+    implementation 'net.sourceforge.jexcelapi:jxl:2.6.12'
+}
